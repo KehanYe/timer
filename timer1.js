@@ -2,6 +2,7 @@ const input = process.argv.slice(2)
 
 const beep = () => {
   process.stdout.write('\x07');
+  // console.log("making sounds")
 }
 
 let timer = (delay) => {
